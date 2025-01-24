@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    float number
+    float number;
     printf("Enter point number: ");
     scanf("%f",&number);
     printf("You entered: ",number);
