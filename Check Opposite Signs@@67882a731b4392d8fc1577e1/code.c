@@ -12,8 +12,8 @@ int main() {
       //  printf("True");
     if (a ==0 && b==0){
         printf("False");
-    }else{
-        printf("False");
+    //}else{
+      //  printf("False");
     }
     return 0;
 }
