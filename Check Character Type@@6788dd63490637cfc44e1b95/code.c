@@ -9,21 +9,21 @@ int main() {
     int x;
     scanf("%c",&c);
     
-    if (c=='a', c=='e', c=='i', c=='o', c=='u' || c=='A', c=='E', c=='I', c=='O', c=='U'){
+    if (c=='a'|| c=='e' || c=='i' || c=='o'|| c=='u' || c=='A' || c=='E' || c=='I' || c=='O'|| c=='U'){
         printf("Vowel");
     }
-    else {
+    else if (((c >= 'a') || (c <= 'z') || (c >= 'A' ) || (c <= 'Z'))){
         printf("Consonant");
     }
-
-{
-    x = int(c);
-    else if (isdigit(c)){
+    
+    else if ((c >= '0') || (c <= '9')){
         printf("Digit");
     }
-    else{
+    else {
         printf("Special Character");
     }
-}
+
+
+    
     return 0;
 }
