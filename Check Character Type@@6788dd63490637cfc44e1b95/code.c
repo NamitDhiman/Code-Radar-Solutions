@@ -23,6 +23,6 @@ int main() {
     else{
         printf("Special Character")
     }
-
+}
     return 0;
 }
