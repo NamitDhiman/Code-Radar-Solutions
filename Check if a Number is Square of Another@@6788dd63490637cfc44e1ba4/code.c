@@ -6,7 +6,6 @@ char* welcome() {
 
 int main() {
     int a,b;
-    double a,b;
     scanf("%d%d",&a,&b);
     if (a*a){
         printf("Yes");
