@@ -11,13 +11,13 @@ int main() {
         printf("%d",a+b);
     }
     else if (-){
-        printf("%d",a-b);
+        printf("%d %d",a-b);
     }
     else if (*){
-        printf("%d",a*b);
-    }
+        printf("%d %d",a*b);
+    } %d
     else if (/){
-        printf("%d",a/b);
+        printf("%d %d",a/b);
     }
     return 0;
 }
