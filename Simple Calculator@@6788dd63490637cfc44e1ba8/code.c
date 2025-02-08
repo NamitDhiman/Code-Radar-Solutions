@@ -6,18 +6,19 @@ char* welcome() {
 
 int main() {
     int a,b;
-    scanf("%d %d",&a,&b);
-    if (+){
-        printf("%d %d",a+b);
+    char c;
+    scanf("%d %d %c",&a,&b,&c);
+    if ('+'){
+        printf("%d",a+b);
     }
-    else if (-){
-        printf("%d %d",a-b);
+    else if ('-'){
+        printf("%d",a-b);
     }
-    else if (*){
-        printf("%d %d",a*b);
-    } %d
-    else if (/){
-        printf("%d %d",a/b);
+    else if ('*'){
+        printf("%d",a*b);
+    }
+    else if ('/'){
+        printf("%d",a/b);
     }
     return 0;
 }
