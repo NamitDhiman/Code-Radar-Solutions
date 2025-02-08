@@ -13,7 +13,7 @@ int main() {
     else if (a > b){
         printf("First");
     }
-    else if (a < b){
+    else if (b > a){
         printf("Second");
     }
     return 0;
