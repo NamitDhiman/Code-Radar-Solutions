@@ -10,7 +10,7 @@ int main() {
     if (a*a){
         printf("Yes");
     }
-    else{
+    else if (a*a != a){
         printf("No");
     }
     return 0;
