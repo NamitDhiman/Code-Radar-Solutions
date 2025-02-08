@@ -8,7 +8,7 @@ int main() {
     double a,b;
     scanf("%d%d",&a,&b);
     double square = pow(b,2);
-    if (a*a){
+    if (a == square){
         printf("Yes");
     }
     else{
