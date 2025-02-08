@@ -5,12 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    int sp,bp;
+    int bp,sp;
     scanf("%d %d",&sp,&bp);
-    if (sp>bp){
+    if (bp>sp){
         printf("Profit");
     }
-    else if (sp<bp){
+    else if (bp<sp){
         printf("Loss");
     }
     else{
