@@ -10,7 +10,7 @@ int main() {
     if (a & b >= 0 || a & b < 0 ){
         printf("Same Sign");
     }
-    else {
+    else if (a != b ){
         printf("Different Sign");
     }
     return 0;
