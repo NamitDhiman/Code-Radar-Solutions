@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     double a,b;
     scanf("%d%d",&a,&b);
-    double square = pow(a,b);
+    double square = pow(b,2);
     if (a*a){
         printf("Yes");
     }
