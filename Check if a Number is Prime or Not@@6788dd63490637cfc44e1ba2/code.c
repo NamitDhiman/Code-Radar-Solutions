@@ -7,10 +7,10 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    if (a == 2){
+    if (a == 2 || a == 3){
         printf("Prime");
     }
-    else if (a % 2 == 0 ){
+    else if (a % 2 == 0 || a % 3 == 0 ){
         printf("Not Prime");
     }
     else {
