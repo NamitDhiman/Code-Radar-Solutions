@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    unsigned int num:
+    unsigned int num;
     scanf("%d",&num);
     if (num & (1<<31)){
         printf("Set");
