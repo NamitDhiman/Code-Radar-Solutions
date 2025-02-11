@@ -6,8 +6,11 @@ char* welcome() {
 
 int main() {
     int N;
-    for (int i = 1; i<=N ; i++){
-        printf("* %d\n",N,i*N);
+    for (int i = N; i >= 1 ; i--){
+        for (int j = 1; j <= i; j++) {
+            printf("* ");
+        }
+        printf("\n");
     }
     return 0;
 }
