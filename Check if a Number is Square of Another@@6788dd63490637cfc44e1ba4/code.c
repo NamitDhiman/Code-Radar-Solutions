@@ -6,11 +6,11 @@ char* welcome() {
 
 int main() {
     int a,b;
-    scanf("%d%d",&a,&b);
-    if (a*a){
+    scanf("%d %d",&a,&b);
+    if (a*a = b){
         printf("Yes");
     }
-    else if (a*a != a){
+    else {
         printf("No");
     }
     return 0;
