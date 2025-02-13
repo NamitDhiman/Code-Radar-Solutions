@@ -7,7 +7,7 @@ int main() {
         for (space = 1; space <= nsp; space++){
             printf(" ");
             
-        }nsp--;
+        }
         for (int j = 1; j <= i; j++) {
             printf("%d",j);
         }for (int k =1 ; k <= i ; k++){
