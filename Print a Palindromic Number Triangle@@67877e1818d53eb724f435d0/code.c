@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
-    int N,space,nsp =(N-i);
+    int N,space,nsp =(N-1);
     scanf("%d",&N);
     for (int i = 1; i <= N ; i++){
         int a = i - 1;
-        for (space = 1; space <= nsp; space++){
+        for (space = 1; space <= (N - 1); space++){
             printf(" ");
             
         }
