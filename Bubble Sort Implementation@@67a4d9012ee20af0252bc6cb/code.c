@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function to print the array
-void printArray(int arr[], int n) {  // Changed return type to void
+void printArray(int arr[100], int n) {  // Changed return type to void
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
