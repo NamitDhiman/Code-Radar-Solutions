@@ -19,7 +19,7 @@ int bubbleSort(int arr[], int n) {
             }
         }
     }
-}
+}printf("\n");
 
 int main() {
     int n;
