@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+
+int main() {
+    int n;
+    scanf("%d", &n);
 // Function to print the array
 int printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
@@ -19,11 +23,7 @@ int bubbleSort(int arr[], int n) {
             }
         }
     }
-}printf("\n");
-
-int main() {
-    int n;
-    scanf("%d", &n);
+}
     int arr[n];
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
