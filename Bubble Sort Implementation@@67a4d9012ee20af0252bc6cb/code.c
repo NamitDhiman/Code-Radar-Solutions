@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 // Function to print the array
-int printArray(int arr[], int n) {
+void printArray(int arr[], int n) {  // Changed return type to void
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
-    return 0;
+    printf("\n");  // Added newline for better output formatting
 }
+
 // Function to perform Bubble Sort
-int bubbleSort(int arr[], int n) {
+void bubbleSort(int arr[], int n) {  // Changed return type to void
     for (int i = 0; i < n-1; i++) {
         for (int j = 0; j < n-i-1; j++) {
             if (arr[j] > arr[j+1]) {
@@ -32,6 +33,7 @@ int main() {
     printArray(arr, n);
     return 0;
 }
+
 
 
 
